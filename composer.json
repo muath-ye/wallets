@@ -1,9 +1,8 @@
 {
     "name": "muath-ye/wallet",
-    "description": "Easy to use virtual wallet for your app",
+    "description": "Easy to use virtual wallet for your laravel app",
     "keywords": [
-        "depsimon",
-        "mannikj",
+        "muath-ye",
         "laravel-wallet",
         "virtual",
         "currency",
