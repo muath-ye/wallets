@@ -9,7 +9,7 @@ All the wallet activities are tracked with transactions.
 Install the package with composer:
 
 ```bash
-composer require mannikj/laravel-wallet
+composer require muath-ye/wallet
 ```
 
 ## Run Migrations
@@ -89,11 +89,6 @@ To run the phpunit tests just make sure to install the package dependencies firs
 Then execute from within the project root directory
 
 `composer test`
-
-
-## Security
-
-If you discover any security related issues, open an issue on the [github repository](https://github.com/MannikJ/laravel-wallet/issues).
 
 ## Credits
 
