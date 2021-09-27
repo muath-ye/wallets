@@ -1,6 +1,6 @@
 <?php
 
-namespace MannikJ\Laravel\Wallet\Services;
+namespace Muathye\Wallet\Services;
 
 class Wallet
 {

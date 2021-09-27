@@ -11,7 +11,7 @@
         "wallet",
         "payment"
     ],
-    "homepage": "https://github.com/mannikj/laravel-wallet",
+    "homepage": "https://github.com/muath-ye/wallet",
     "license": "MIT",
     "authors": [
         {
@@ -23,6 +23,11 @@
             "name": "Simon Depelchin",
             "email": "simon@webartisan.be",
             "homepage": "https://webartisan.be",
+            "role": "Developer"
+        },
+        {
+            "name": "Muathye",
+            "email": "muathye@gmail.com",
             "role": "Developer"
         }
     ],
@@ -37,12 +42,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MannikJ\\Laravel\\Wallet\\": "src"
+            "Muathye\\Wallet\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MannikJ\\Laravel\\Wallet\\Tests\\": "tests"
+            "Muathye\\Wallet\\Tests\\": "tests"
         }
     },
     "config": {
@@ -51,10 +56,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MannikJ\\Laravel\\Wallet\\WalletServiceProvider"
+                "Muathye\\Wallet\\WalletServiceProvider"
             ],
             "aliases": {
-                "Wallet": "MannikJ\\Laravel\\Wallet\\Facades\\WalletFacade"
+                "Wallet": "Muathye\\Wallet\\Facades\\WalletFacade"
             }
         }
     },

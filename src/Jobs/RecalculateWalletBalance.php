@@ -1,13 +1,13 @@
 <?php
 
-namespace MannikJ\Laravel\Wallet\Jobs;
+namespace Muathye\Wallet\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
-use MannikJ\Laravel\Wallet\Models\Wallet;
+use Muathye\Wallet\Models\Wallet;
 
 class RecalculateWalletBalance implements ShouldQueue
 {

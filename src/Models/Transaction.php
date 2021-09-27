@@ -1,6 +1,6 @@
 <?php
 
-namespace MannikJ\Laravel\Wallet\Models;
+namespace Muathye\Wallet\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

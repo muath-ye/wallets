@@ -1,6 +1,6 @@
 <?php
 
-namespace MannikJ\Laravel\Wallet\Traits;
+namespace Muathye\Wallet\Traits;
 
 trait HasWallet
 {

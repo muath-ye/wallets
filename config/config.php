@@ -1,6 +1,6 @@
 <?php
-use MannikJ\Laravel\Wallet\Models\Wallet;
-use MannikJ\Laravel\Wallet\Models\Transaction;
+use Muathye\Wallet\Models\Wallet;
+use Muathye\Wallet\Models\Transaction;
 
 return [
     /**

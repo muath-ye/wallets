@@ -1,12 +1,12 @@
 <?php
 
-namespace MannikJ\Laravel\Wallet\Models;
+namespace Muathye\Wallet\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Carbon;
-use MannikJ\Laravel\Wallet\Exceptions\UnacceptedTransactionException;
+use Muathye\Wallet\Exceptions\UnacceptedTransactionException;
 
 class Wallet extends Model
 {
@@ -49,7 +49,7 @@ class Wallet extends Model
      * @param  integer $amount
      * @param  string  $type
      * @param  array   $meta
-     * @return MannikJ\Laravel\Wallet\Models\Transaction
+     * @return Muathye\Wallet\Models\Transaction
      */
     public function deposit($amount, $meta = [], $type = 'deposit', $forceFail = false)
     {
@@ -79,7 +79,7 @@ class Wallet extends Model
      * @param  integer $amount
      * @param  string  $type
      * @param  array   $meta
-     * @return MannikJ\Laravel\Wallet\Models\Transaction
+     * @return Muathye\Wallet\Models\Transaction
      */
     public function failDeposit($amount, $meta = [], $type = 'deposit')
     {
@@ -92,7 +92,7 @@ class Wallet extends Model
      * @param  string  $type
      * @param  array   $meta
      * @param  boolean $shouldAccept
-     * @return MannikJ\Laravel\Wallet\Models\Transaction
+     * @return Muathye\Wallet\Models\Transaction
      */
     public function withdraw($amount, $meta = [], $type = 'withdraw', $shouldAccept = true)
     {

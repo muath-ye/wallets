@@ -1,9 +1,9 @@
 <?php
 
-namespace MannikJ\Laravel\Wallet\Tests\Factories;
+namespace Muathye\Wallet\Tests\Factories;
 
-use MannikJ\Laravel\Wallet\Models\Wallet;
-use MannikJ\Laravel\Wallet\Tests\Models\User;
+use Muathye\Wallet\Models\Wallet;
+use Muathye\Wallet\Tests\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class WalletFactory extends Factory

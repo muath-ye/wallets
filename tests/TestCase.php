@@ -1,10 +1,10 @@
 <?php
 
-namespace MannikJ\Laravel\Wallet\Tests;
+namespace Muathye\Wallet\Tests;
 
 use Orchestra\Testbench\TestCase as BaseTestCase;
-use MannikJ\Laravel\Wallet\WalletServiceProvider;
-use MannikJ\Laravel\Wallet\Facades\WalletFacade;
+use Muathye\Wallet\WalletServiceProvider;
+use Muathye\Wallet\Facades\WalletFacade;
 
 class TestCase extends BaseTestCase
 {

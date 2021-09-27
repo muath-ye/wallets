@@ -1,17 +1,17 @@
 <?php
 
-namespace MannikJ\Laravel\Wallet\Tests\Unit;
+namespace Muathye\Wallet\Tests\Unit;
 
-use MannikJ\Laravel\Wallet\Models\Wallet;
-use MannikJ\Laravel\Wallet\Exceptions\UnacceptedTransactionException;
-use MannikJ\Laravel\Wallet\Tests\TestCase;
-use MannikJ\Laravel\Wallet\Tests\Models\User;
-use MannikJ\Laravel\Wallet\Models\Transaction;
+use Muathye\Wallet\Models\Wallet;
+use Muathye\Wallet\Exceptions\UnacceptedTransactionException;
+use Muathye\Wallet\Tests\TestCase;
+use Muathye\Wallet\Tests\Models\User;
+use Muathye\Wallet\Models\Transaction;
 use Illuminate\Support\Collection;
-use MannikJ\Laravel\Wallet\Jobs\RecalculateWalletBalance;
-use MannikJ\Laravel\Wallet\Tests\Factories\TransactionFactory;
-use MannikJ\Laravel\Wallet\Tests\Factories\UserFactory;
-use MannikJ\Laravel\Wallet\Tests\Factories\WalletFactory;
+use Muathye\Wallet\Jobs\RecalculateWalletBalance;
+use Muathye\Wallet\Tests\Factories\TransactionFactory;
+use Muathye\Wallet\Tests\Factories\UserFactory;
+use Muathye\Wallet\Tests\Factories\WalletFactory;
 
 class WalletTest extends TestCase
 {

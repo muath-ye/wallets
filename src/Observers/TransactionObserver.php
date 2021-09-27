@@ -1,6 +1,6 @@
 <?php
 
-namespace MannikJ\Laravel\Wallet\Observers;
+namespace Muathye\Wallet\Observers;
 
 class TransactionObserver
 {

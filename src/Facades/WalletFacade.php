@@ -1,11 +1,11 @@
 <?php
 
-namespace MannikJ\Laravel\Wallet\Facades;
+namespace Muathye\Wallet\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \MannikJ\Laravel\Wallet\Models\Wallet
+ * @see \Muathye\Wallet\Models\Wallet
  */
 class WalletFacade extends Facade
 {

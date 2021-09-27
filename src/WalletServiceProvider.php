@@ -1,11 +1,11 @@
 <?php
 
-namespace MannikJ\Laravel\Wallet;
+namespace Muathye\Wallet;
 
 use Illuminate\Support\ServiceProvider;
-use MannikJ\Laravel\Wallet\Observers\WalletObserver;
-use MannikJ\Laravel\Wallet\Observers\TransactionObserver;
-use MannikJ\Laravel\Wallet\Services\Wallet;
+use Muathye\Wallet\Observers\WalletObserver;
+use Muathye\Wallet\Observers\TransactionObserver;
+use Muathye\Wallet\Services\Wallet;
 
 class WalletServiceProvider extends ServiceProvider
 {

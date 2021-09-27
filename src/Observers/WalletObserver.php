@@ -1,10 +1,10 @@
 <?php
 
-namespace MannikJ\Laravel\Wallet\Observers;
+namespace Muathye\Wallet\Observers;
 
-use MannikJ\Laravel\Wallet\Models\Wallet;
-use MannikJ\Laravel\Wallet\Models\Transaction;
-use MannikJ\Laravel\Wallet\Jobs\RecalculateWalletBalance;
+use Muathye\Wallet\Models\Wallet;
+use Muathye\Wallet\Models\Transaction;
+use Muathye\Wallet\Jobs\RecalculateWalletBalance;
 
 class WalletObserver
 {

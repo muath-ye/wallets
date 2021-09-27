@@ -21,7 +21,7 @@ If you want more flexibility, you can publish the migration files to your own
 migration directory with the following artisan command:
 
 ```bash
-php artisan vendor:publish --provider="MannikJ\Laravel\Wallet\WalletServiceProvider" --tag=migrations
+php artisan vendor:publish --provider="Muathye\Wallet\WalletServiceProvider" --tag=migrations
 ```
 Make sure to deactivate automatic migration loadingby setting
 the config variable `load_migrations` to false when you have
@@ -32,7 +32,7 @@ published the migration file.
 You can publish the config file with this artisan command:
 
 ```bash
-php artisan vendor:publish --provider="MannikJ\Laravel\Wallet\WalletServiceProvider" --tag=config
+php artisan vendor:publish --provider="Muathye\Wallet\WalletServiceProvider" --tag=config
 ```
 
 This will merge the `wallet.php` config file where you can specify the Users, Wallets & Transactions classes if you have custom ones.
@@ -43,7 +43,7 @@ Add the `HasWallet` trait to your User model.
 
 ``` php
 
-use MannikJ\Laravel\Wallet\Traits\HasWallet;
+use Muathye\Wallet\Traits\HasWallet;
 
 class User extends Model
 {

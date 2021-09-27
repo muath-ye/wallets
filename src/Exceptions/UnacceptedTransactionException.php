@@ -1,9 +1,9 @@
 <?php
 
-namespace MannikJ\Laravel\Wallet\Exceptions;
+namespace Muathye\Wallet\Exceptions;
 
 use Exception;
-use MannikJ\Laravel\Wallet\Models\Transaction;
+use Muathye\Wallet\Models\Transaction;
 
 class UnacceptedTransactionException extends Exception
 {
